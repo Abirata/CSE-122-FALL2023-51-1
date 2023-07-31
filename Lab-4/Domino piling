@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int M, N;
+
+    // Input M and N
+
+    scanf("%d %d", &M, &N);
+
+    // Calculate maximum number of dominos
+    int max_dominos = (M * N) / 2;
+
+    printf("%d\n", max_dominos);
+
+    return 0;
+}
+
